@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F2F2F2;
+    color: #1A1A1A;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Geometric Balance theme utilities */
+.geo-border {
+  border: 1px solid #D1D1D1;
+}
+
+.geo-border-dark {
+  border: 1px solid #1A1A1A;
+}
+
+.geo-shadow {
+  box-shadow: 6px 6px 0px rgba(20, 20, 20, 0.06);
+}
+
+.geo-shadow-sm {
+  box-shadow: 3px 3px 0px rgba(20, 20, 20, 0.05);
+}
+
+.geo-shadow-solid {
+  box-shadow: 4px 4px 0px #1A1A1A;
+}
+
+.geo-shadow-orange {
+  box-shadow: 4px 4px 0px #F27D26;
+}

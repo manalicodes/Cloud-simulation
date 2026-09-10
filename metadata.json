@@ -1,0 +1,6 @@
+{
+  "name": "CloudExec — Cloud Strategy Tutor & Comparison Engine",
+  "description": "An interactive Techno-Management Cloud Strategy Tutor & Comparison Engine teaching virtualization, FinOps, cloud deployment models, and executive trade-offs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
